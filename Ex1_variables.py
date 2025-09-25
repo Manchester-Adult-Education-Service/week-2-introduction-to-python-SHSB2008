@@ -17,14 +17,14 @@ print(f"{food} is {name}'s favourite food!")
 # This will just add an empty line for space
 # Please don't touch this
 print("")
-name = "zeliha"
+name = "Zeliha"
 age = 25
 food = "Sausage"
-print("Hello, Bob!")
-print("Bob is 30 years old.")
-print("In 5 years, Bob will be 35 years old.")
-print("Bob really likes noodles.")
-print("Noodles is Bob's favourite food!")
+print(f"Hello, {name}!")
+print(f"{name} is {age} years old.")
+print(f"In 5 years, {name} will be {age+5} years old.")
+print(f"{name} really likes {food}.")
+print(f"{food} is {name}'s favourite food!")
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
