@@ -50,15 +50,15 @@ print(f"{food} is {name}'s favourite food!")
 # not rewrite all the print statements.
 
 
-name = "Tony"
-age = 30
-food = "Rice"
-print(f"Hello, {name}!")
-print(f"{name} is {age} years old.")
-print(f"In 5 years, {name} will be {age+5} years old.")
-print(f"{name} really likes {food}.")
-print(f"{food} is {name}'s favourite food!")
-# -------------------------------------------
+# name = "Tony"
+# age = 30
+# food = "Rice"
+# print(f"Hello, {name}!")
+# print(f"{name} is {age} years old.")
+# print(f"In 5 years, {name} will be {age+5} years old.")
+# print(f"{name} really likes {food}.")
+# print(f"{food} is {name}'s favourite food!")
+# # -------------------------------------------
 # 💡 Extra Challenge (optional):
 # - Use input() to ask the user for their name, age, and favourite food.
 # - Then print a message using what they typed in!
@@ -68,6 +68,13 @@ print(f"{food} is {name}'s favourite food!")
 # food = input("What is your favourite food? ")
 # print(f"Hello, {name}! Next year you will be {age + 1}.")
 # print(f"{food.capitalize()} is your favourite food!")
+
+name = input("what is your name? ")
+age = int(input("how old are you?"))
+food = input ("what is your favourite food?")
+
+print(f"Hello, {name}! Next year you will be {age + 1}.")
+print(f"{food.capitalize()} is {name}'s favourite food!")
 
 # Once you are done, please run the following commands (one by one) in the terminal:
 # git add Ex1_variables.py
