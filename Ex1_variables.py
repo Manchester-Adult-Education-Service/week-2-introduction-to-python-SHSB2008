@@ -49,6 +49,15 @@ print(f"{food} is {name}'s favourite food!")
 # This should now be much quicker since you only need to change variables,
 # not rewrite all the print statements.
 
+
+name = "Tony"
+age = 30
+food = "Rice"
+print(f"Hello, {name}!")
+print(f"{name} is {age} years old.")
+print(f"In 5 years, {name} will be {age+5} years old.")
+print(f"{name} really likes {food}.")
+print(f"{food} is {name}'s favourite food!")
 # -------------------------------------------
 # 💡 Extra Challenge (optional):
 # - Use input() to ask the user for their name, age, and favourite food.
